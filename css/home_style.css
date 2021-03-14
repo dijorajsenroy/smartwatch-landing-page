@@ -7,7 +7,9 @@ body{
     justify-content: space-around;
     align-content: center;
     overflow: auto;
-
+    width:100%;
+    text-align: center;
+    align-self:center;
 }
 /* HEADER ELEMENTS, IMAGES AND LINKS */
 
@@ -93,6 +95,7 @@ h1{
 
 #feature-title{
     height:15%;
+    width:100%;
     background-color: #161d6f;
     display: inline-block;
     color: white;
@@ -128,8 +131,34 @@ h1{
 
 /* FORM */
 
-#form-container{
-    height: 55%;
+#form{
+    height: 45%;
     width:100%;
     background-color:#161d6f;
+}
+#label{
+    color: white;
+    font-size: 1.5em;
+    padding:5%;
+    margin:4%;
+    color: rgb(51, 159, 248);
+}
+#email{
+    width: 45%;
+    height:20%;
+    border: none;
+    margin:4%;
+}
+#submit{
+    width: 12%;
+    height: 17%;
+    border: none;
+    box-shadow: 0 5px 35px rgb(0,0,0,0.9);
+    background-color: silver;
+    color:white;
+    font-size:1.2em;
+}
+
+#submit:hover{
+    background-color: rgb(51, 159, 248);
 }
