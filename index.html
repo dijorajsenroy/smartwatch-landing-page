@@ -16,8 +16,16 @@
 
             <!--nav-bar section: flexbox used here-->
             <nav id = "nav-bar">
-                <img src = "assets/logo.png" id = "header-img">
-                <button id="nav-buynow" class ="buynow">Buy Now</button>
+                <img src="assets/logo.png" id="header-img">
+                <button id = "pos1" class = "nav-link">
+                    <a href = "#style-link">Styles</a>
+                </button>
+                <button id = "pos2" class = "nav-link">
+                    <a href="#trail-link">Trailer</a>
+                </button>
+                <button id = "pos3" class = "nav-link">
+                    <a href="#form">Buy Now</a>
+                </button>
             </nav>
 
             <!-- header image section -->
@@ -25,7 +33,9 @@
             <hr style ="border: solid 1px  rgb(51, 159, 248, 0.4); width:20%;">
             <p style="text-align:center; font-size:1.2em;">Best in class gear for productivity and fitness!</p>
             <br>
-            <button class = "buynow">Buy Now</button>
+            <button class = "nav-link">
+                <a href="#form">Buy Now</a>
+            </button>
 
             <!-- Flex box and Media Query used here -->
             <div id = "watch-images">
@@ -36,6 +46,7 @@
         </header>
 
         <!-- Style section: Flexbox used here -->
+        <br id = "style-link">
         <h2 id = "feature-title"> A host of new features and superior performance - now in 3 variants! </h2>
         <div class = "feature-container">
             <div class = "card">
@@ -53,12 +64,13 @@
         </div>
 
         <!-- Video section -->
-        <h1 style = "margin-top:8%;"> The Official Trailer </h1>
+        <br id="trail-link">
+        <h1 style = "margin-top:6%;"> The Official Trailer </h1>
         <hr style="border: solid 1px  rgb(51, 159, 248, 0.4); width:20%;">
-            <iframe src="https://www.youtube.com/embed/YtgUHPl56bw" frameborder="0"
+        <iframe src="https://www.youtube.com/embed/YtgUHPl56bw" frameborder="0"
                 allow= "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 style = "margin:4% auto 2% auto; height: 65%; width:70%;">
-            </iframe>
+        </iframe>
 
         <!-- Form section -->
         <h1 id ="feature-title"> Enter e-mail to order now! </h1>

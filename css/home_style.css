@@ -4,7 +4,7 @@ body{
     font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction:column;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     overflow: auto;
     width:100%;
@@ -13,22 +13,41 @@ body{
 }
 /* HEADER ELEMENTS, IMAGES AND LINKS */
 
-.buynow{
+a{
+    color:white;
+    text-decoration: none;
+}
+.nav-link{
     border:none;
     background-color: silver;
     color:white;
     font-size:1.2em;
-    /*media query*/
-    height: 90px;
-    width: 120px;
+    height: auto;
+    width: auto;
     align-self: center;
     border-radius: 5%;
     padding: 0.8%;
     box-shadow: 0 5px 10px rgb(0,0,0,0.4);
 }
 
-.buynow:hover{
+.nav-link:hover{
     background-color: rgb(51, 159, 248);
+}
+
+#pos1{
+    position:absolute;
+    top:15%;
+    right: 50%;
+}
+#pos2{
+    position:absolute;
+    top:15%;
+    right: 30%;
+}
+#pos3{
+    position:absolute;
+    top:15%;
+    right: 10%;
 }
 
 #header{
@@ -60,14 +79,6 @@ body{
     justify-content: space-between;
     background-color:white;
     box-shadow: 0 3px 8px  rgb(51, 159, 248, 0.4);
-}
-
-#nav-buynow{
-    position: absolute;
-    right: 4%;
-    height:auto;
-    width:auto;
-    box-shadow: 0 0 0 white;
 }
 
 h1{
